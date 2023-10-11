@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    background-color: #ecf9ff;
+    color: white;
+}
+header {
+    background-image: url(/Headerimg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: #082751;
+    border-bottom: 2px solid gray;
+    color: white;
+    font-size: 30px;
+    font-family: cursive;
+    text-shadow: 2px 2px 4px #09152b;
+    text-decoration: underline;
+    text-underline-offset: 6px;
+}
+input[type="email"] {
+    margin-top: 5px;
+    border-radius: 5px;
+    color: #063977;
+    height: 30px;
+    padding: 0px 10px 0px 10px;
+}
+label {
+    color: gray;
+}
+.container {
+    border: 2px solid #09152b;
+    border-radius: 10px;
+    box-shadow: black 10px 10px;
+    width: 500px;
+    background-color: white;
+    display: flex;
+    margin: 40px auto;
+    padding: 20px;
+    justify-content: center;
+    color: black;
+    height: fit-content;
+}
+#formDesign {
+    font-family: cursive;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    justify-content: center;
+    height: fit-content;
+}
+.form_heading {
+    font-size: 25px;
+    color: #063977;
+    margin: 10px 0 10px 0;
+}
+.elements {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    margin: 5px;
+}
+.clubbedRadio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.spacingOption {
+    margin-right: auto;
+}
+button {
+    height: 40px;
+    margin-top: 10px;
+    font-family: cursive;
+    font-size: bold;
+    color: white;
+    background-color: #063977;
+    border: 2px solid #09152b;
+    border-radius: 5px;
+    box-shadow: 5px 5px black;
+}
+button:hover {
+    background-color: #fff;
+    color: #063977;
+}
+
+button:active {
+    background-color: #063977;
+    color: #fff;
+    transform: translate(5px, 5px);
+    box-shadow: -1px -1px black;
+}
+footer{
+    display: flex;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    border-top: 2px solid grey;
+    font-size: 12px;
+    color: #fff;
+    background-color: #082751;
+}
